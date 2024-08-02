@@ -2,3 +2,6 @@
 // You can use that to your advantage like a CSS selector
 
 // Your code here
+
+let remove2 = document.querySelector("#secondElement")
+remove2.parentNode.removeChild(remove2)
